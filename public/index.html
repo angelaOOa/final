@@ -1,48 +1,71 @@
-<!doctype html>
-<html ng-app="myApp" ng-controller="myCtrl">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
-    <script src="script.js"></script>
+	<meta charset="utf-8">
+	
+	<title>Angela Ochoa</title>
+
 </head>
-<body>
-    <div>
-    <table>
-        <tr>
-        <td>Name:</td>
-        <td><input type="text" ng-model="Name"></td>
-        </tr>
-        <tr>
-        <td>Isbn:</td>
-        <td><input type="text" ng-model="Isbn"></td>
-        </tr>
-        <tr>
-        <td>Author:</td>
-        <td><input type="text" ng-model="Author"></td>
-        </tr>
-        <tr>
-        <td>Pages:</td>
-        <td><input type="number" ng-model="Pages"></td>
-        </tr>
-    </table>
-    <button ng-click="add_book()">Add</button>
-    </div>
-    <hr>
-    <div>
-    <table>
-        <tr>
-        <th>Name</th>
-        <th>Isbn</th>
-        <th>Author</th>
-        <th>Pages</th>
-        </tr>
-        <tr ng-repeat="book in books">
-        <td><input type="button" value="Delete" data-ng-click="del_book(book)"></td>
-        <td>{{book.name}}</td>
-        <td>{{book.isbn}}</td>
-        <td>{{book.author}}</td>
-        <td>{{book.pages}}</td>
-        </tr>
-    </table>
-    </div>
-</body>
-</html>
+
+	<!-- Header -->
+	<header id="head">
+		<div class="container">
+			<div class="row">
+				<h1 class="lead">Angela Ochoa</h1>
+                <br>
+				<h2 class="thin">Perfil profesional</h2>
+				<p>Tengo 20 años y soy estudiante de ingeniería de sistemas, actualmente me encuentro estudiando. He tenido experiencia en el servicio al cliente trabajando como vendedora para la marca Shango y así mismo como mesera en el restaurante Mambre, también he tenido la experiencia de trabajar como jefa por lo que tengo experiencia en el manejo de grupos de personas y gerencia de proyectos.
+
+                    Tengo conocimientos en diferentes lenguajes de programación como Java y Python además de manejar bases de datos con MySQL y PostgreSQL, poseo conocimiento en la realización de varios diagramas como UML, entidad-relación, relacional, entre otros. 
+                    
+                    Soy una persona comprometida con mi trabajo, creativa y responsable, con buenas relaciones interpersonales, facilidad de comunicación, habilidad para adaptarme a diferentes medios, dinámica y con ganas de aprender.
+                   </p>
+			</div>
+		</div>
+	</header>
+	<!-- /Header -->
+
+	<!-- Intro -->
+	<div class="container text-center">
+		<br> 
+		<h2 class="thin">Formacion profesional</h2>
+		<p class="text-muted">
+			Bachillerato<br>
+            Colegio Toberin IED<br>
+            Bogotá D.C<br>
+            Año 2008-Año 2018<br> 
+            <br>
+            Ingeniería de sistemas<br>
+            Universidad el Bosque<br>
+            Bogotá D.C<br>
+            6 semestre<br>
+            Año 2021 – actualmente <br> 
+<br> 
+		</p>
+	</div>
+
+
+	<!-- Intro -->
+	<div class="container text-center">
+		<br> 
+		<h2 class="thin">Experiencia Laboral</h2>
+		<p class="text-muted">
+			Vendedora <br> 
+            Shango Desing, Bogotá D.C <br> 
+            Teléfono: 318 7872001 <br> 
+            Diciembre 2017- enero 2020 <br> 
+            <br> 
+            Mesera <br> 
+            Restaurante Mambre <br> 
+            Teléfono: 3046731209 <br> 
+            Enero 2019 – junio 2019 <br> 
+            <br> 
+            Jefa Veeduría  <br> 
+            Bogotá League <br> 
+            Teléfono: 3152040665 <br> 
+            Junio 2019 – marzo 2021 <br> 
+ <br> 
+<br> 
+		</p>
+	</div>
+	
